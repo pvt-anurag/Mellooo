@@ -1,0 +1,33 @@
+{
+  "name": "mello",
+  "version": "3.0.1",
+  "description": "",
+  "main": "index.js",
+  "start": "node register.js && node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-wilful-youth/Mello.git"
+  },
+  "author": "the_wilful_youth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-wilful-youth/Mello/issues"
+  },
+  "homepage": "https://github.com/the-wilful-youth/Mello#readme",
+    "dependencies": {
+      "@discordjs/opus": "^0.8.0",
+      "@discordjs/voice": "^0.14.0",
+      "@distube/deezer": "^1.0.0",
+      "@distube/soundcloud": "^1.3.0",
+      "@distube/spotify": "^1.5.1",
+      "@distube/yt-dlp": "^1.1.3",
+      "axios": "^1.2.5",
+      "discord.js": "^14.7.1",
+      "distube": "^4.0.4",
+      "ffmpeg-static": "^4.4.1",
+      "libsodium-wrappers": "^0.7.10"
+    }
+}
